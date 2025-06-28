@@ -1,0 +1,79 @@
+/* BG */
+body {
+    background-color: #fffaca;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 20px;
+}
+
+/* Título centralizado e com cor diferente */
+h1 {
+    color: #e4b662;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* Parágrafo com fonte maior e justificado */
+p {
+    font-size: 18px;
+    text-align: justify;
+}
+
+/* Lista com espaçamento maior entre os itens */
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Imagens com bordas arredondadas e tamanho adequado */
+img {
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilo para a tabela */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #ffffff;
+}
+
+table th, table td {
+    border: 1px solid #e4b662;
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background-color: #e4b662;
+    color: #ffffff;
+}
+
+/* Link com efeito hover */
+a {
+    color: #e4b662;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff6600;
+    text-decoration: underline;
+}
+
+/* Botão interativo */
+button {
+    padding: 10px 20px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+/* Detalhes */
+.itens {
+    font-weight: bold; 
+    color: #ff6600;
+}
